@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: consolas, monospace, "Courier New", "Times New Roman";
 }
 
 .container{
@@ -20,7 +21,6 @@ img{
 .overlay{
     width: 100%;
     height: 100%;
-    /* background-color: black; */
     background: radial-gradient(transparent,black);
     position: absolute;
     z-index: 999;
@@ -51,6 +51,12 @@ nav ul{
 nav li{
     padding: 1rem;
     list-style: none;
+    text-decoration: none ;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 button{
@@ -61,7 +67,31 @@ button{
 }
 
 button:hover{
-    background-color: yellow;
-    color: black;
+    background-color: rgb(36, 79, 121);
+    color: rgb(138, 60, 60);
     transition: 0.2s;
+}
+
+.intro {
+    z-index: 999;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.greetings {
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(transparent black);
+}
+
+h1 {
+    height: 30vh;
+    text-align: center;
+    background: linear-gradient(transparent black);
+    font: size 40px;
+    padding: 1rem;
 }
