@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', 'Space Mono', monospace;
+}
+
+body{
+  background: #000000;
+}
+
+h1,h4,p,a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #32e50f;
+  color: #000000;
+  border: 1px solid #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: ff665c;
+  color: #ffffff;
+  transition: 0.3s;
+}
