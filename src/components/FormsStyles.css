@@ -21,6 +21,13 @@ form input, form textarea{
 }
 
 .btn{
+    align-items: center;
     padding: 1rem, 0;
     width: 30rem;
+}
+
+.form .btn{
+    width: 400px;
+    margin: 2rem 35rem;
+    align-items: center;
 }

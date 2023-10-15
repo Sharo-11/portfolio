@@ -23,6 +23,7 @@
 
 
 .card{
+    max-width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,7 +50,12 @@
 }
 
 .btn{
-    display: block;
+    width: 110px;
+    display: inline-block;
     width: 80%;
     margin: 2rem auto;
+}
+.card .btn{
+    width: 120px;
+    justify-content: center;
 }
