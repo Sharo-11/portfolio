@@ -17,7 +17,6 @@ const ServiceCard = () => {
 
             <div className="card">
                 <h3> Cyber Security Analyst </h3>
-                <span className="bar"></span>
                 <p>
                 Offering fundamental cyber security analysis services, including risk assessments and vulnerability identification, to ensure the protection of your digital assets and data.
                 </p>
@@ -26,7 +25,6 @@ const ServiceCard = () => {
 
             <div className="card">
                 <h3> Web Devlopment </h3>
-                <span className="bar"></span>
                 <p>
                 Build a captivating online presence with custom websites designed to reflect your brand's unique identity and engage your audience effectively.
                 </p>
