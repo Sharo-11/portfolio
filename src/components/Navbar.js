@@ -18,10 +18,8 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", changeColor);
-        return () => {
-            window.removeEventListener("scroll", changeColor);
-        };
-    }, []);
+        // Remove the removeEventListener to keep the navbar always visible
+    }, []);    
 
     return (
         <div className={color ? "header-bg" : "header"}>
@@ -34,6 +32,9 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="/Projects">Projects</Link>
+                </li>
+                <li>
+                    <Link to="/Cyber">Cyber Security</Link>
                 </li>
                 <li>
                     <Link to="/About">About</Link>

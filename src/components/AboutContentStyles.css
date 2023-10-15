@@ -1,0 +1,73 @@
+.about {
+  position: relative;
+  width: 100%;
+  margin: 3rem, 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.about .left {
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  padding: 2rem;
+  max-width: 350px;
+}
+
+.about .left .skills {
+  padding: 0.5rem;
+  color: aliceblue;
+  margin: 1.2rem 0;
+}
+
+.about .left .skills li {
+  padding: 1rem;
+  text-align: left;
+}
+
+.about .right {
+  max-width: 700px;
+}
+
+.right .img-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.right .img {
+  max-width: 90%;
+  border: 1px solid #333;
+}
+
+.right .top {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+  padding-top: 50%;
+  z-index: 6;
+}
+
+.right .bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 5;
+}
+
+.about-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
+.about-btn .btn{
+    margin: 1rem 0.4rem;
+    width: 110px; 
+    padding: 12px 20px; 
+    display: inline-block;
+}
