@@ -1,5 +1,5 @@
 import "./GalaxyImgStyles.css";
-import Galaxy from "../assets/bg.png"
+import Galaxy from "../assets/aesthetics.jpg"
 import React from 'react'
 import { Link } from "react-router-dom";
 
