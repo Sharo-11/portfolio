@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import GalaxyImg2 from '../components/GalaxyImg2'
+import GalaxyImg3 from '../components/GalaxyImg3'
+import Forms from '../components/Forms'
 import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
     <div>
       <Navbar />
-      <GalaxyImg2 heading = "Contact me" text = "Contact me on sharodubey1312@gmail.com." />
+      <GalaxyImg3 heading="Contact me" text="Let's have a chat." />
+      <Forms />
       <Footer />
     </div>
   )
