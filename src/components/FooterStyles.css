@@ -29,15 +29,6 @@
     line-height: 20px;
 }
 
-.phone{
-    display: flex;
-    margin-bottom: 0.8rem;
-}
-
-.phone p{
-    line-height: 20px;
-}
-
 .email{
     display: flex;
     margin-bottom: 0.8rem;
