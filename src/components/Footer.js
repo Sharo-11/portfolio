@@ -2,7 +2,6 @@ import './FooterStyles.css'
 import React from 'react'
 import {
   FaHome,
-  FaPhone,
   FaMailBulk,
   FaLinkedin,
   FaInstagram,
@@ -26,11 +25,7 @@ const Footer = () => {
               <p>Maharashtra.</p>
             </h4>
           </div>
-          <div className='phone'>
-            <FaPhone
-              size={20}
-              style={{ color: '#ffffff', marginRight: '2rem' }}
-            />
+          
             <h4>
               <p>+91 9403564996</p>
             </h4>
